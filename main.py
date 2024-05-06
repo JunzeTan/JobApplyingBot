@@ -4,8 +4,8 @@ from scraper import search_jobs
 
 
 def main():
-    username = input("Enter your LinkedIn username: ")
-    password = input("Enter your LinkedIn password: ")
+    username = "1985489916@qq.com"
+    password = "Wa081016"
 
     driver = login_to_linkedin(username, password)
     jobs = search_jobs(driver, 'Data Analyst')  # Example job search

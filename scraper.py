@@ -1,6 +1,7 @@
 # scraper.py
 from selenium.webdriver.common.by import By
 import time
+from config import BASE_URL
 
 
 def search_jobs(driver, keyword):
